@@ -19,9 +19,22 @@
                 Console.WriteLine();
 
             }
-
-            Console.WriteLine(arr.GetLength(0));
-            
+            Console.WriteLine();
+            Console.WriteLine("Измененый массив");
+            for (int j = 0; j < 6; j++)
+            {
+                char temp = arr[0, j];
+                arr[0, j] = arr[7, j];
+                arr[7, j] = temp;
+            }
+            for (int j = 0;j < hight; j++) 
+            {
+                for (int i = 0; i < wight; i++)
+                {
+                    Console.Write(arr[j,i]);
+                }
+                Console.WriteLine();
+            }
 
 
         }
