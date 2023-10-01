@@ -113,9 +113,9 @@ namespace PZ_08
                 }
             }    
                 Console.Write("Количество символов: " + symbolCount[i]);
-                Console.WriteLine
-            }
-    }
+                Console.WriteLine();
+            
+    
 
 
 
