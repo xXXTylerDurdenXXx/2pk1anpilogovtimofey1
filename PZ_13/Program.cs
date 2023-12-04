@@ -32,7 +32,7 @@
             Console.WriteLine(result);
 
         }
-        static int Summ(int x,ref int n)
+        static int Summ(int x,ref int n) // Функция для 4 задания
         {
             
             if (x == 0) 
@@ -44,7 +44,7 @@
             Summ(x-1,ref n);
             return n;
         }
-        static void Writline(int value1,int value2) 
+        static void Writline(int value1,int value2) // Функция для 3 задания
         {
             if (value1 == value2)
             {
@@ -55,7 +55,7 @@
             Writline(value1+1,value2);
 
         }
-        static int Arifmetic (int a,int d,int n) 
+        static int Arifmetic (int a,int d,int n) // Функция для 1 задания
         {
             
             if (n == 0)
@@ -73,7 +73,7 @@
             return a;
         }
 
-        static double Geo(double b,double q,int n1)
+        static double Geo(double b,double q,int n1)// Функция для 2 задания
         {
             if (n1 == 0)
              return b;
